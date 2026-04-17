@@ -1,2 +1,7 @@
-name: OpenClaw Model Council Skill
-description: Transparent multi-model comparison skill for OpenClaw with peer review, an isolated native judge, and reusable learnings.
+interface:
+  display_name: "OpenClaw Model Council Skill"
+  short_description: "Transparent model comparison for OpenClaw"
+  default_prompt: "Use $openclaw-model-council-skill to compare Claude, Gemini, and self on the same prompt with transparent scoring and reusable learnings."
+
+policy:
+  allow_implicit_invocation: true
