@@ -274,8 +274,3 @@ python3 scripts/run_model_council.py \
   --pretty
 ```
 
----
-
-## License
-
-MIT
